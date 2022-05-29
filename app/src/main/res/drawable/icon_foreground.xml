@@ -1,0 +1,64 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <group android:scaleX="0.99"
+      android:scaleY="0.99"
+      android:translateX="0.54"
+      android:translateY="0.54">
+    <group android:scaleX="0.20210752"
+        android:scaleY="0.20210752"
+        android:translateX="31.32"
+        android:translateY="33.617863">
+      <path
+          android:pathData="M30.962,201.2 L4.295,99.3L220.163,99.3L194.9,201.2Z"
+          android:strokeLineJoin="bevel"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M0.5,77.5l3.075,14.306L220.566,91.806l3.369,-14.306Z"
+          android:strokeLineJoin="bevel"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M30.54,77.5l58.3,-66.588 4.535,6.046L40.689,77.5Z"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M95.5,8.5m-8.5,0a8.5,8.5 0,1 1,17 0a8.5,8.5 0,1 1,-17 0"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M95.5,8.5m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M193.837,77.5l-58.3,-66.588 -4.535,6.046L183.688,77.5Z"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M129.5,8.5m-8.5,0a8.5,8.5 0,1 1,17 0a8.5,8.5 0,1 1,-17 0"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+      <path
+          android:pathData="M129.5,8.5m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+          android:strokeWidth="1"
+          android:fillColor="@color/gold_color"
+          android:strokeColor="@color/gold_color"/>
+    </group>
+
+    <text></text>
+  </group>
+
+
+</vector>
+
+

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DOD_layout"
+    android:layout_width="wrap_content"
+
+    android:layout_height="match_parent"
+    android:layout_marginLeft="1dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/white_colour_ripple_bg"
+    android:elevation="2dp"
+    android:paddingTop="12dp">
+
+    <ImageView
+        android:id="@+id/dod_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/dod_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="22"
+
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dod_image" />
+
+    <TextView
+        android:id="@+id/dod_text3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+
+        android:text="t1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dod_text1"
+        app:layout_constraintTop_toBottomOf="@+id/dod_text1" />
+
+    <TextView
+        android:id="@+id/dod_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="12dp"
+        android:text="t2"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/add_button_DOD"
+        app:layout_constraintStart_toStartOf="@+id/dod_text3"
+        app:layout_constraintTop_toBottomOf="@+id/dod_text3" />
+
+    <TextView
+        android:id="@+id/dod_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+
+        android:text="25"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dod_text1"
+        app:layout_constraintStart_toEndOf="@+id/dod_text1"
+        app:layout_constraintTop_toTopOf="@+id/dod_text1" />
+
+    <Button
+        android:id="@+id/add_button_DOD"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/big_add_button_bg"
+        android:fontFamily="sans-serif"
+        android:text="Add"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:background="@color/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/discount_text_DOD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="12dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:text="56% off"
+        android:textColor="@color/green"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dod_text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dod_text2"
+        app:layout_constraintTop_toTopOf="@+id/dod_text2" />
+
+    <Button
+        android:id="@+id/plus_DOD"
+        android:layout_width="35dp"
+        android:layout_height="0dp"
+        android:background="@drawable/add_button_bg"
+        android:text="+"
+        android:enabled="false"
+
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/add_button_DOD"
+        app:layout_constraintEnd_toEndOf="@+id/add_button_DOD"
+        app:layout_constraintTop_toTopOf="@+id/add_button_DOD" />
+
+    <Button
+        android:id="@+id/minus_DOD"
+        android:layout_width="35dp"
+        android:layout_height="0dp"
+        android:background="@drawable/remove_button_bg"
+        android:text="-"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/add_button_DOD"
+        app:layout_constraintStart_toStartOf="@+id/add_button_DOD"
+        app:layout_constraintTop_toTopOf="@+id/add_button_DOD"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/unit_num_DOD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/plus_DOD"
+        app:layout_constraintEnd_toStartOf="@+id/plus_DOD"
+        app:layout_constraintStart_toEndOf="@+id/minus_DOD"
+        app:layout_constraintTop_toTopOf="@+id/minus_DOD" />
+
+    <TextView
+        android:id="@+id/item_id_DOD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dod_icon_dummy"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
